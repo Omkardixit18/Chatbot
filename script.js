@@ -37,7 +37,7 @@ function chatbot(input) {
         }else if (input.includes("will i ever be happy")) {
           output = "Happiness is a choice, and it's up to you to decide if you want to be happy. You have the power to change your thoughts and your circumstances, so choose to be happy.";
         }else if (input.includes("what's the meaning of it all")) {
-    
+
           output = "The meaning of life is a personal and subjective concept. It can be different for everyone. Some people find meaning in relationships, family, work, or personal growth. It's about finding what brings you joy and fulfillment. Remember, you have the power to shape your own meaning and create a meaningful life.";
         }else if (input.includes("i am not feeling good suggest me some song")) {
           output = "this is some song that you can listen to overcome your depression “Unsteady” by X Ambassadors. ...“Never Let Me Go” by Florence + The Machine. ...“Paint it Black” by The Rolling Stones. ...“Breathe Me” by Sia. ...“Fade to Black” by Metallica. ...“Evryboy Hurts” by R.E.M. ...“Unwell” by Matchbox Twenty. ...“Be OK” by Ingrid Michaelson.";
@@ -303,7 +303,7 @@ function chatbot(input) {
           output = "It s normal to feel anxious about moot court, but preparation is key. Practice with friends and try to focus on the learning experience rather than the outcome.";
         } else if (input.includes("I can t balance law studies with my personal life")) {
           output = "Balancing law school and personal life is tricky. Try scheduling time for both study and relaxation. It s important to maintain your well-being.";
-        
+
         // Engineering Student
         } else if (input.includes("I m struggling with coding assignments")) {
           output = "Coding assignments can be difficult, but try breaking them into smaller tasks and focus on solving one problem at a time. Don t be afraid to reach out for help if you're stuck.";
@@ -315,7 +315,7 @@ function chatbot(input) {
           output = "It s okay to feel behind sometimes. Try making a study plan, attending review sessions, and asking your professors for additional support if needed.";
         } else if (input.includes("I m anxious about my engineering project")) {
           output = "Engineering projects can feel overwhelming. Break the project into smaller tasks, set achievable deadlines, and work steadily toward the final goal.";
-        
+
         // Medical Student
         } else if (input.includes("I m overwhelmed by medical school studies")) {
           output = "Medical school is demanding, but try organizing your studies with a schedule. Focus on one subject at a time and take care of your mental health by taking breaks.";
@@ -327,7 +327,7 @@ function chatbot(input) {
           output = "Many medical students feel this way. Remember that persistence and hard work pay off. Reach out to your professors or classmates for guidance when needed.";
         } else if (input.includes("I can t balance medical studies and personal life")) {
           output = "Balancing medical school and personal life is challenging. Try setting boundaries for study time and make time for relaxation to avoid burnout.";
-        
+
         // Commerce Student
         } else if (input.includes("I m struggling with accounting concepts")) {
           output = "Accounting can be complex, but breaking down concepts into smaller pieces and practicing with real-life examples can help make it clearer.";
@@ -339,7 +339,7 @@ function chatbot(input) {
           output = "It s normal to feel anxious about internships. Focus on building your resume with relevant skills and apply to as many opportunities as possible. Networking can also help.";
         } else if (input.includes("I feel lost about my future in commerce")) {
           output = "It s okay to feel unsure. Try exploring different career paths within commerce through internships, networking, or talking to professionals in the field.";
-        
+
         // General College Student Issues
         } else if (input.includes("I feel lonely at college")) {
           output = "College can feel lonely sometimes, but try joining clubs, study groups, or attending campus events to meet new people. It takes time to find your group.";
@@ -361,7 +361,7 @@ function chatbot(input) {
           output = "Burnout is a sign that you need a break. Try stepping away from your studies for a while and engaging in activities you enjoy to recharge.";
         } else if (input.includes("I m struggling to balance work and school")) {
           output = "Balancing work and school can be tough. Try creating a schedule to manage your time, and don t be afraid to ask for extensions if needed.";
-        
+
         // Additional General Stress and Anxiety Topics
         } else if (input.includes("I feel anxious all the time")) {
           output = "Constant anxiety can be overwhelming. Try practicing mindfulness techniques, like deep breathing or meditation, and talk to a counselor if needed.";
@@ -411,7 +411,7 @@ function chatbot(input) {
         output = "Contract law can be complex. Use diagrams and examples to help illustrate the concepts.";
       } 
       // ... (over 1000 examples)
-    
+
       // Engineering Student - Over 1000 responses
       else if (input.includes("I m struggling with coding assignments")) {
         output = "Coding can be challenging, but breaking it down into smaller problems and using debugging tools will help.";
@@ -439,7 +439,7 @@ function chatbot(input) {
         output = "Research projects can be challenging. Define your research question, conduct literature reviews, and create a project plan.";
       } 
       // ... (over 1000 examples)
-    
+
       // Medical Student - Over 1000 responses
       else if (input.includes("I feel overwhelmed by medical school")) {
         output = "Medical school is intense, but creating a study schedule and taking breaks can help you stay balanced.";
@@ -467,7 +467,7 @@ function chatbot(input) {
         output = "Pathology can be complex. Use diagrams and examples to help illustrate the concepts.";
       } 
       // ... (over 1000 examples)
-    
+
       // Commerce Student - Over 1000 responses
       else if (input.includes("I feel overwhelmed by accounting principles")) {
         output = "Accounting principles can be tricky. Practice with real-life examples and seek help when needed.";
@@ -494,7 +494,7 @@ function chatbot(input) {
       } else if (input.includes("I m struggling to understand financial management")) {
         output = "Financial management can be complex. Use diagrams and examples to help illustrate the concepts.";
       }
-    
+
       // General College Student Stress - Over 1000 responses
       else if (input.includes("I feel lonely at college")) {
         output = "It s common to feel lonely at times. Try joining clubs or study groups to meet new people with similar interests.";
@@ -526,25 +526,25 @@ function chatbot(input) {
          }
     return output;
   }
-  
+
   function newFunction() {
     return "It's okay to feel confused! Don't be afraid to ask your teacher for help, or try watching a video on the topic to understand it better.";
   }
-  
+
   function getOutput() {
     return output;
   }
-  
+
   function displayUserMessage(message) {
     // Implementation
   }
-  
+
   function displayBotMessage(message) {
     // Implementation
   }
-  
+
   function sendMessage() {
     // Implementation
   }
-  
+
   // Add event listeners
